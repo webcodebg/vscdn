@@ -1,0 +1,20 @@
+{
+    "name": "vscdn",
+    "displayName": "vscdn",
+    "description": "Cdn snippets for often used libraries",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
